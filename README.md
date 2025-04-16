@@ -22,7 +22,7 @@
 ### Instalação
     ```bash
     
-    git clone [seu-repositorio]
+    git clone [https://github.com/KaiqueBorgesdeOliveira/UOL-SAC-Redesign]
     cd uol-redesign
     npm install
 
