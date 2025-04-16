@@ -1,7 +1,5 @@
 # SAC-UOL Redesign
 
-![UOL Logo](public/favicon.ico)  
-
 > Projeto de redesign da interface do SAC UOL desenvolvido com React 19 + TypeScript
 
 ## 🚀 Visão Geral
@@ -38,15 +36,16 @@
    - npm run format	Formata código automaticamente
 
 ## 🏗️ Estrutura do Projeto
-plain
-Copy
-src/
-├── assets/            # Recursos estáticos
-├── components/        # Componentes React
-│   ├── sections/      # Seções da página
-│   └── ui/            # Componentes UI reutilizáveis
-├── styles/            # Estilos globais e temas
-└── utils/             # Utilitários e helpers
+    ```plaintext
+    src/
+    ├── assets/            # Recursos estáticos (imagens, fonts)
+    ├── components/        # Componentes React
+    │   ├── sections/      # Seções da página (Header, Footer)
+    │   └── ui/            # Componentes UI (Button, Card)
+    ├── styles/            # Estilos globais e temas
+    │   ├── global.ts      # Configurações CSS globais
+    │   └── theme.ts       # Variáveis de design system
+    └── utils/             # Utilitários (formatters, helpers)
 
 ## 🎨 Guia de Estilo
   Cores Principais:
